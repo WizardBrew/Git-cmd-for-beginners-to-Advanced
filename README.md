@@ -2,9 +2,13 @@
 
 <!-- 1) Gradient banner image -->
 <p align="center">
-  ![Git Commands Reference](https://copilot.microsoft.com/th/id/BCO.c54798a5-aa1d-4dc2-b0b9-7202ed207fe4.png)
+  <img
+    src="https://media.giphy.com/media/l0Hlym5lJZGEzolHq/giphy.gif"
+    alt="Animated Gradient Banner"
+    width="1200"
+    height="200"
+  />
 </p>
-![WizardBrew Banner](assets/banner.png)
 
 # 🐙 Git Commands Reference
 
