@@ -1,0 +1,175 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WizardBrew Guide – Git Commands</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="wizard-style.css">
+</head>
+
+<body>
+    <header>
+        <div class="profile-action-container">
+            <a href="https://github.com/WizardBrew" target="_blank" rel="noopener">
+                <img src="https://avatars.githubusercontent.com/u/91134716?v=4" alt="Profile Photo">
+            </a>
+            <button id="verifyBtn">🏷️ Verify Now Post</button>
+            <button id="notifyBtn">🔔 Notify New Post</button>
+        </div>
+        <h1>🐙 Git Commands Reference</h1>
+        <div class="bubble-container">
+            <a href="https://devopsenginer.in" class="bubble">🌐 devopsenginer.in</a>
+            <a href="https://github.com/WizardBrew" class="bubble">🐙 GitHub</a>
+            <a href="https://www.linkedin.com/in/parvezmustak8004/" class="bubble">💼 LinkedIn</a>
+            <a href="mailto:wizardbrew@outlook.com" class="bubble">✉️ Email</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="step pink-step">
+            <h2>🔰 Beginners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Command">git init</td>
+                        <td data-label="Description">Initializes a new Git repository</td>
+                        <td data-label="Example"><code>git init my-project</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git clone</td>
+                        <td data-label="Description">Copies an existing repository</td>
+                        <td data-label="Example"><code>git clone https://github.com/user/repo.git <br> test</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git add</td>
+                        <td data-label="Description">Stages changes for the next commit</td>
+                        <td data-label="Example"><code>git add file.txt</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git commit</td>
+                        <td data-label="Description">Records staged changes</td>
+                        <td data-label="Example"><code>git commit -m "Initial commit"</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git status</td>
+                        <td data-label="Description">Displays working directory status</td>
+                        <td data-label="Example"><code>git status</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git push</td>
+                        <td data-label="Description">Sends local commits to remote</td>
+                        <td data-label="Example"><code>git push origin main</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="step pink-step">
+            <h2>⚙️ Intermediate</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Command">git branch</td>
+                        <td data-label="Description">Lists, creates, or deletes branches</td>
+                        <td data-label="Example"><code>git branch feature-login</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git checkout</td>
+                        <td data-label="Description">Switches branches or restores working tree</td>
+                        <td data-label="Example"><code>git checkout feature-login</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git merge</td>
+                        <td data-label="Description">Integrates changes from another branch</td>
+                        <td data-label="Example"><code>git merge feature-login</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git log</td>
+                        <td data-label="Description">Shows commit history</td>
+                        <td data-label="Example"><code>git log --oneline</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git stash</td>
+                        <td data-label="Description">Temporarily shelves uncommitted changes</td>
+                        <td data-label="Example"><code>git stash save "WIP: login feature"</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git tag</td>
+                        <td data-label="Description">Creates, lists, or deletes tags</td>
+                        <td data-label="Example"><code>git tag v1.0.0</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="step pink-step">
+            <h2>🚀 Advanced</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-label="Command">git rebase</td>
+                        <td data-label="Description">Reapplies commits on top of another base tip</td>
+                        <td data-label="Example"><code>git checkout feature && git rebase main</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git cherry-pick</td>
+                        <td data-label="Description">Applies a specific commit from another branch</td>
+                        <td data-label="Example"><code>git cherry-pick a1b2c3d4</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git bisect</td>
+                        <td data-label="Description">Uses binary search to find the commit that broke code</td>
+                        <td data-label="Example"><code>git bisect start; git bisect bad; git bisect good v1.0</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git reflog</td>
+                        <td data-label="Description">Records updates to local references</td>
+                        <td data-label="Example"><code>git reflog</code></td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git submodule</td>
+                        <td data-label="Description">Manages nested repositories within a parent project</td>
+                        <td data-label="Example"><code>git submodule add https://github.com/user/lib.git libs/lib</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-label="Command">git filter-branch</td>
+                        <td data-label="Description">Rewrites branches by filtering commit history</td>
+                        <td data-label="Example"><code>git filter-branch --tree-filter 'rm -f secrets.txt' HEAD</code>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 WizardBrew. All rights reserved.
+    </footer>
+</body>
+
+</html>

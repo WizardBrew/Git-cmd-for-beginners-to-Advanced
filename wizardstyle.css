@@ -1,0 +1,86 @@
+/* Git Commands Table Enhancements for WizardBrew Theme */
+
+.step table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.step thead th {
+    background: linear-gradient(to right, #ce93d8, #f48fb1);
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 0.8rem 1rem;
+}
+
+.step th,
+.step td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.step tbody tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.step tbody tr:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.step code {
+    display: inline-block;
+    background: linear-gradient(to right, #fce4ec, #f3e5f5);
+    color: #6a1b9a;
+    padding: 0.2rem 0.5rem;
+    border-left: 3px solid #ec407a;
+    border-radius: 4px;
+    font-family: Consolas, Menlo, monospace;
+    font-size: 0.95rem;
+    white-space: nowrap;
+}
+
+/* Ensure tables are responsive on small screens */
+@media (max-width: 600px) {
+
+    .step table,
+    .step thead,
+    .step tbody,
+    .step th,
+    .step td,
+    .step tr {
+        display: block;
+    }
+
+    .step thead {
+        float: left;
+        /* hide header row visually but keep for screen readers */
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .step tr {
+        margin-bottom: 1rem;
+    }
+
+    .step td {
+        position: relative;
+        padding-left: 50%;
+    }
+
+    .step td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 1rem;
+        top: 0.75rem;
+        font-weight: bold;
+        color: #0078d4;
+    }
+}

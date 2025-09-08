@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>WizardBrew Guide – Git Commands</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="wizardstyle.css" />
+</head>
+
+<body>
+    <header>
+        <div class="profile-action-container">
+            <a href="https://github.com/WizardBrew" target="_blank" rel="noopener">
+                <img src="https://avatars.githubusercontent.com/u/91134716?v=4" alt="Profile Photo" />
+            </a>
+            <button id="notifyBtn">🔔 Notify New Post</button>
+        </div>
+        <h1>🐙 Git Commands Reference</h1>
+        <div class="bubble-container">
+            <a href="https://devopsenginer.in" class="bubble">🌐 devopsenginer.in</a>
+            <a href="https://github.com/WizardBrew" class="bubble">🐙 GitHub</a>
+            <a href="https://www.linkedin.com/in/parvezmustak8004/" class="bubble">💼 LinkedIn</a>
+            <a href="mailto:wizardbrew@outlook.com" class="bubble">✉️ Email</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="step">
+            <h2>🔰 Beginners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>git init</td>
+                        <td>Initializes a new Git repository</td>
+                        <td><code>git init my-project</code></td>
+                    </tr>
+                    <tr>
+                        <td>git clone</td>
+                        <td>Copies an existing repository</td>
+                        <td><code>git clone https://github.com/user/repo.git</code></td>
+                    </tr>
+                    <tr>
+                        <td>git add</td>
+                        <td>Stages changes for the next commit</td>
+                        <td><code>git add file.txt</code></td>
+                    </tr>
+                    <tr>
+                        <td>git commit</td>
+                        <td>Records staged changes</td>
+                        <td><code>git commit -m "Initial commit"</code></td>
+                    </tr>
+                    <tr>
+                        <td>git status</td>
+                        <td>Displays working directory status</td>
+                        <td><code>git status</code></td>
+                    </tr>
+                    <tr>
+                        <td>git push</td>
+                        <td>Sends local commits to remote</td>
+                        <td><code>git push origin main</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="step">
+            <h2>⚙️ Intermediate</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>git branch</td>
+                        <td>Lists, creates, or deletes branches</td>
+                        <td><code>git branch feature-login</code></td>
+                    </tr>
+                    <tr>
+                        <td>git checkout</td>
+                        <td>Switches branches or restores working tree</td>
+                        <td><code>git checkout feature-login</code></td>
+                    </tr>
+                    <tr>
+                        <td>git merge</td>
+                        <td>Integrates changes from another branch</td>
+                        <td><code>git merge feature-login</code></td>
+                    </tr>
+                    <tr>
+                        <td>git log</td>
+                        <td>Shows commit history</td>
+                        <td><code>git log --oneline</code></td>
+                    </tr>
+                    <tr>
+                        <td>git stash</td>
+                        <td>Temporarily shelves uncommitted changes</td>
+                        <td><code>git stash save "WIP: login feature"</code></td>
+                    </tr>
+                    <tr>
+                        <td>git tag</td>
+                        <td>Creates, lists, or deletes tags</td>
+                        <td><code>git tag v1.0.0</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="step">
+            <h2>🚀 Advanced</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Command</th>
+                        <th>Description</th>
+                        <th>Example</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>git rebase</td>
+                        <td>Reapplies commits on top of another base tip</td>
+                        <td><code>git checkout feature && git rebase main</code></td>
+                    </tr>
+                    <tr>
+                        <td>git cherry-pick</td>
+                        <td>Applies a specific commit from another branch</td>
+                        <td><code>git cherry-pick a1b2c3d4</code></td>
+                    </tr>
+                    <tr>
+                        <td>git bisect</td>
+                        <td>Uses binary search to find the commit that broke code</td>
+                        <td>
+                            <code>git bisect start; git bisect bad; git bisect good v1.0</code>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>git reflog</td>
+                        <td>Records updates to local references</td>
+                        <td><code>git reflog</code></td>
+                    </tr>
+                    <tr>
+                        <td>git submodule</td>
+                        <td>Manages nested repositories within a parent project</td>
+                        <td><code>git submodule add https://github.com/user/lib.git libs/lib</code></td>
+                    </tr>
+                    <tr>
+                        <td>git filter-branch</td>
+                        <td>Rewrites branches by filtering commit history</td>
+                        <td><code>git filter-branch --tree-filter 'rm -f secrets.txt' HEAD</code></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 WizardBrew. All rights reserved.| wizardbrew@outlook.com
+    </footer>
+</body>
+
+</html>
