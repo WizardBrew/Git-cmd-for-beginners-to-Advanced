@@ -1,7 +1,4 @@
-# Git-cmd-for-beginners-to-Advanced
-Git access for the beginner to Advanced
-<!-- README.md -->
-
+<!-- put this at the very top of your README.md -->
 <style>
 .wrapper {
   background: linear-gradient(135deg, #ffccbc, #ffe0b2, #f8bbd0, #d1c4e9);
@@ -14,21 +11,33 @@ Git access for the beginner to Advanced
 
 # 🐙 Git Commands Reference
 
-<p>
-  <img src="https://avatars.githubusercontent.com/u/91134716?v=4" alt="Profile Photo" width="120" style="border-radius:50%; box-shadow:0 0 15px rgba(0,0,0,0.3);"/>
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/91134716?v=4" alt="Profile" width="120" style="border-radius:50%;box-shadow:0 0 15px rgba(0,0,0,0.3)" />
 </p>
 
-<p>
-  <strong style="margin-right:1rem;">🏷️ Verify Now Post</strong>
-  <strong>🔔 Notify New Post</strong>
+<p align="center">
+  <strong>🏷️ Verify Now Post</strong> &nbsp; <strong>🔔 Notify New Post</strong>
 </p>
 
-<p>
-  <a href="https://devopsenginer.in" style="margin:0 .5rem;">🌐 devopsenginer.in</a>
-  <a href="https://github.com/WizardBrew" style="margin:0 .5rem;">🐙 GitHub</a>
-  <a href="https://www.linkedin.com/in/parvezmustak8004/" style="margin:0 .5rem;">💼 LinkedIn</a>
-  <a href="mailto:wizardbrew@outlook.com" style="margin:0 .5rem;">✉️ Email</a>
+<p align="center">
+  🌐 <a href="https://devopsenginer.in">devopsenginer.in</a>  
+  🐙 <a href="https://github.com/WizardBrew">GitHub</a>  
+  💼 <a href="https://www.linkedin.com/in/parvezmustak8004/">LinkedIn</a>  
+  ✉️ <a href="mailto:wizardbrew@outlook.com">Email</a>
 </p>
+
+---
+
+## 🔰 Beginners
+
+| Command     | Description                        | Example                               |
+|-------------|------------------------------------|---------------------------------------|
+| `git init`  | Initializes a new Git repository   | `git init my-project`                 |
+| `git clone` | Copies an existing repository      | `git clone https://github.com/...`    |
+| `git add`   | Stages changes for the next commit | `git add file.txt`                    |
+| `git commit`| Records staged changes             | `git commit -m "Initial commit"`      |
+| `git status`| Displays working directory status  | `git status`                          |
+| `git push`  | Sends local commits to remote      | `git push origin main`                |
 
 ---
 
