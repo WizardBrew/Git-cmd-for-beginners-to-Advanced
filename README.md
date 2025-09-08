@@ -30,19 +30,6 @@
 
 ## 🔰 Beginners
 
-| Command     | Description                        | Example                               |
-|-------------|------------------------------------|---------------------------------------|
-| `git init`  | Initializes a new Git repository   | `git init my-project`                 |
-| `git clone` | Copies an existing repository      | `git clone https://github.com/...`    |
-| `git add`   | Stages changes for the next commit | `git add file.txt`                    |
-| `git commit`| Records staged changes             | `git commit -m "Initial commit"`      |
-| `git status`| Displays working directory status  | `git status`                          |
-| `git push`  | Sends local commits to remote      | `git push origin main`                |
-
----
-
-## 🔰 Beginners
-
 | Command     | Description                         | Example                                |
 |-------------|-------------------------------------|----------------------------------------|
 | `git init`  | Initializes a new Git repository    | `git init my-project`                  |
