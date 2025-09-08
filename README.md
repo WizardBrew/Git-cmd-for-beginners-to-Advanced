@@ -2,12 +2,15 @@
 Git access for the beginner to Advanced
 <!-- README.md -->
 
-<div align="center" style="
+<style>
+.wrapper {
   background: linear-gradient(135deg, #ffccbc, #ffe0b2, #f8bbd0, #d1c4e9);
   padding: 2rem;
   border-radius: 12px;
-  color: #333;
-">
+}
+</style>
+
+<div class="wrapper">
 
 # 🐙 Git Commands Reference
 
