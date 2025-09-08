@@ -1,22 +1,20 @@
-<!-- put this at the very top of your README.md -->
-<style>
-.wrapper {
-  background: linear-gradient(135deg, #ffccbc, #ffe0b2, #f8bbd0, #d1c4e9);
-  padding: 2rem;
-  border-radius: 12px;
-}
-</style>
+<!-- README.md -->
 
-<div class="wrapper">
+<!-- 1) Gradient banner image -->
+![WizardBrew Banner](assets/banner.png)
 
 # 🐙 Git Commands Reference
 
 <p align="center">
-  <img src="https://avatars.githubusercontent.com/u/91134716?v=4" alt="Profile" width="120" style="border-radius:50%;box-shadow:0 0 15px rgba(0,0,0,0.3)" />
+  <img src="https://avatars.githubusercontent.com/u/91134716?v=4"
+       alt="Profile Photo"
+       width="120"
+       style="border-radius:50%; box-shadow:0 0 15px rgba(0,0,0,0.3)" />
 </p>
 
 <p align="center">
-  <strong>🏷️ Verify Now Post</strong> &nbsp; <strong>🔔 Notify New Post</strong>
+  <strong>🏷️ Verify Now Post</strong> &nbsp;
+  <strong>🔔 Notify New Post</strong>
 </p>
 
 <p align="center">
@@ -30,16 +28,19 @@
 
 ## 🔰 Beginners
 
-| Command     | Description                         | Example                                |
-|-------------|-------------------------------------|----------------------------------------|
-| `git init`  | Initializes a new Git repository    | `git init my-project`                  |
-| `git clone` | Copies an existing repository       | `git clone https://github.com/user/repo.git` |
-| `git add`   | Stages changes for the next commit  | `git add file.txt`                     |
-| `git commit`| Records staged changes              | `git commit -m "Initial commit"`       |
-| `git status`| Displays working directory status   | `git status`                           |
-| `git push`  | Sends local commits to remote       | `git push origin main`                 |
+| Command     | Description                        | Example                              |
+|-------------|------------------------------------|--------------------------------------|
+| `git init`  | Initializes a new Git repository   | `git init my-project`                |
+| `git clone` | Copies an existing repository      | `git clone https://github.com/user/repo.git` |
+| `git add`   | Stages changes for the next commit | `git add file.txt`                   |
+| `git commit`| Records staged changes             | `git commit -m "Initial commit"`     |
+| `git status`| Displays working directory status  | `git status`                         |
+| `git push`  | Sends local commits to remote      | `git push origin main`               |
 
 ---
+
+*(…Intermediate and Advanced sections continue in the same table style…)*
+
 
 ## ⚙️ Intermediate
 
