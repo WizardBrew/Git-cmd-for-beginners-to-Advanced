@@ -3,7 +3,7 @@
 <!-- 1) Gradient banner image -->
 <p align="center">
   <img
-    src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2p1NjA0c241MHVqYnRsa21weTZkcWlwN3F3Z3NxaDBrc3ZoNjBiaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xT0GqimU9dTwmE5lra/giphy.gif"
+    src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTJ1NmltZXM5cmVocHlwejJwZmhmZWh1YWZmZTA0d2NsbzVubzhvbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cFkiFMDg3iFoI/giphy.gif"
     alt="Animated Gradient Banner"
     width="1200"
     height="200"
