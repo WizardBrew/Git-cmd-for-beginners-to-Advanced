@@ -11,7 +11,7 @@
 </p>
 
 # 🐙 Git Commands Reference
-<p> src="https://wizardbrew.github.io/Git-cmd-for-beginners-to-Advanced/" </p>
+
 <p align="center">
   <img src="https://avatars.githubusercontent.com/u/91134716?v=4"
        alt="Profile Photo"
@@ -32,7 +32,7 @@
 </p>
 
 ---
-
+<p> Link: src="https://wizardbrew.github.io/Git-cmd-for-beginners-to-Advanced/" </p>
 ## 🔰 Beginners
 
 | Command     | Description                        | Example                              |
